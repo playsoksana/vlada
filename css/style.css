@@ -131,7 +131,7 @@ body {
 .r {
   z-index: 10;
   position: fixed;
-  bottom: 100px;
+  bottom: 10px;
   font-size: 48px;
   left: 20%;
   transform: translateX(-50%);
