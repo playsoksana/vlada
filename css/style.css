@@ -1,0 +1,197 @@
+body {
+  font-family: "Noto Serif", serif;
+  font-size: 700;
+  background-color: yellow;
+}
+
+.conteiner {
+  position: relative;
+  padding: 50px 20px;
+  width: 1200px;
+  height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightcoral;
+}
+
+.olen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p {
+  text-align: center;
+}
+
+.icon-svg {
+  position: absolute;
+  top: 350px;
+  left: 50px;
+  opacity: 0.1;
+  width: 600px;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    fill: red;
+    transform: scale(1);
+  }
+
+  100% {
+    fill: rgb(226, 132, 25);
+    transform: scale(10);
+  }
+}
+
+.icon-svg1 {
+  opacity: 0.4;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  width: 600px;
+  animation-name: spin;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.icon-svg2 {
+  opacity: 0.2;
+  position: absolute;
+  bottom: 100px;
+  left: 700px;
+  width: 200px;
+  animation-name: spina;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.icon-svg3 {
+  opacity: 0.5;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  width: 300px;
+  animation-name: spina;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spina {
+  0% {
+    fill: red;
+    transform: scale(1);
+  }
+
+  100% {
+    fill: rgb(226, 25, 166);
+    transform: scale(10);
+  }
+}
+
+.icon-svg4 {
+  z-index: 2;
+  opacity: 0.2;
+  position: absolute;
+  top: 50%;
+  left: 500px;
+  transform: translate(-50% -50%);
+  width: 1000px;
+  animation-name: spinv;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinv {
+  0% {
+    fill: red;
+    transform: scale(1);
+  }
+
+  100% {
+    fill: rgb(223, 238, 9);
+    transform: scale(10);
+  }
+}
+
+.r {
+  z-index: 10;
+  position: fixed;
+  bottom: 100px;
+  font-size: 48px;
+  left: 20%;
+  transform: translateX(-50%);
+  text-align: center;
+  animation-name: spinn;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinn {
+  0% {
+    color: blue;
+    transform: scale(0.3);
+    opacity: 1;
+  }
+
+  100% {
+    fill: rgb(223, 238, 255);
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.icon-svg5 {
+  z-index: 3;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: -500px;
+  transform: translate(-50% -50%);
+  width: 100px;
+  animation-name: sping;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sping {
+  0% {
+    fill: rgb(132, 231, 3);
+    transform: scale(1);
+  }
+
+  100% {
+    fill: rgb(8, 240, 47);
+    transform: scale(10);
+  }
+}
+
+.icon-svg6 {
+  z-index: 3;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  right: -500px;
+  transform: translate(-50% -50%);
+  width: 100px;
+  animation-name: sping;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
